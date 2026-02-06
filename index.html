@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetLux - Pet Shop de Luxo e Estética Premium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="https://img.icons8.com/color/96/000000/dog-crown.png">
+</head>
+<body>
+    <!-- Preloader (Opcional) -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="paw-loader">
+                <div class="paw"></div>
+                <div class="paw"></div>
+                <div class="paw"></div>
+            </div>
+            <p>Carregando experiência PetLux...</p>
+        </div>
+    </div>
+
+    <!-- Header Luxuoso -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-content">
+                    <div class="header-contact">
+                        <span class="contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <span class="contact-text">(11) 99999-8888</span>
+                        </span>
+                        <span class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span class="contact-text">Seg - Sáb: 8h às 20h</span>
+                        </span>
+                    </div>
+                    <div class="header-social">
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="navbar">
+            <div class="container">
+                <div class="navbar-content">
+                    <a href="#" class="logo">
+                        <div class="logo-symbol">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-name">PETLUX</span>
+                            <span class="logo-tagline">Experiência Premium</span>
+                        </div>
+                    </a>
+
+                    <div class="nav-container">
+                        <ul class="nav-menu">
+                            <li><a href="#inicio" class="nav-link" data-text="Início">Início</a></li>
+                            <li><a href="#experiencia" class="nav-link" data-text="Experiência">Experiência</a></li>
+                            <li><a href="#servicos" class="nav-link" data-text="Serviços">Serviços</a></li>
+                            <li><a href="#espacos" class="nav-link" data-text="Espaços">Espaços</a></li>
+                            <li><a href="#produtos" class="nav-link" data-text="Produtos">Produtos</a></li>
+                            <li><a href="#contato" class="nav-link" data-text="Contato">Contato</a></li>
+                        </ul>
+                        
+                        <a href="#agendar" class="btn btn-lux">
+                            <i class="fas fa-gem"></i>
+                            <span>Agendar Experiência</span>
+                        </a>
+                    </div>
+
+                    <div class="menu-toggle">
+                        <div class="hamburger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section Luxuosa -->
+    <section id="inicio" class="hero">
+        <div class="hero-slides">
+            <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1596276020587-43af4922e1d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80')"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1510771463146-e89e6e86560e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80')"></div>
+            <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1560743641-3914f2c45636?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80')"></div>
+        </div>
+        
+        <div class="hero-overlay"></div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span>Exclusivo</span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="hero-line">O Luxo que seu</span>
+                    <span class="hero-line highlight">Pet Merece</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    Experiência única de cuidados premium, onde cada detalhe é pensado para o conforto e bem-estar do seu companheiro.
+                </p>
+                
+                <div class="hero-actions">
+                    <a href="#experiencia" class="btn btn-primary">
+                        <i class="fas fa-star"></i>
+                        <span>Conheça a Experiência</span>
+                    </a>
+                    <a href="#contato" class="btn btn-secondary">
+                        <i class="fas fa-phone"></i>
+                        <span>Agende uma Visita</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="hero-scroll">
+            <a href="#experiencia" class="scroll-down">
+                <i class="fas fa-chevron-down"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Experiência Premium -->
+    <section id="experiencia" class="experience">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label">Diferencial PetLux</span>
+                <h2 class="section-title">Uma <span class="highlight">Experiência</span> Única</h2>
+                <p class="section-description">
+                    Descubra o que torna a PetLux a escolha premium para donos que buscam o melhor para seus pets
+                </p>
+            </div>
+            
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <i class="fas fa-user-md"></i>
+                    </div>
+                    <h3>Especialistas Premiados</h3>
+                    <p>Nossa equipe é composta por profissionais certificados e premiados internacionalmente.</p>
+                    <div class="experience-features">
+                        <span class="feature-tag">Certificação</span>
+                        <span class="feature-tag">Experiência</span>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Produtos Exclusivos</h3>
+                    <p>Utilizamos apenas marcas premium importadas e linhas exclusivas desenvolvidas para nós.</p>
+                    <div class="experience-features">
+                        <span class="feature-tag">Importados</span>
+                        <span class="feature-tag">Premium</span>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Segurança Total</h3>
+                    <p>Ambientes monitorados 24h com câmeras e sistema de segurança de última geração.</p>
+                    <div class="experience-features">
+                        <span class="feature-tag">Monitorado</span>
+                        <span class="feature-tag">Higienizado</span>
+                    </div>
+                </div>
+                
+                <div class="experience-card">
+                    <div class="experience-icon">
+                        <i class="fas fa-concierge-bell"></i>
+                    </div>
+                    <h3>Serviço Personalizado</h3>
+                    <p>Atendimento individualizado com plano de cuidados específico para cada pet.</p>
+                    <div class="experience-features">
+                        <span class="feature-tag">Exclusivo</span>
+                        <span class="feature-tag">Personalizado</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Premium -->
+    <section id="servicos" class="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Serviços de Luxo</span>
+                <h2 class="section-title">Cuidados <span class="highlight">Premium</span></h2>
+                <p class="section-description">
+                    Cada serviço é uma experiência única de bem-estar e cuidado especializado
+                </p>
+            </div>
+            
+            <div class="services-showcase">
+                <div class="service-featured">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Estética Premium">
+                        <div class="service-overlay">
+                            <div class="service-content">
+                                <h3>Estética Premium</h3>
+                                <p>Banho terapêutico com aromaterapia e tosa artística especializada</p>
+                                <a href="#agendar" class="btn-service">
+                                    <i class="fas fa-arrow-right"></i>
+                                    <span>Reservar</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="services-grid">
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-stethoscope"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Clínica Veterinária</h3>
+                            <p>Consultas com especialistas e equipamentos de última geração</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-hotel"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Hotel 5 Diamantes</h3>
+                            <p>Suítes privativas com camas ortopédicas e entretenimento</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Adestramento</h3>
+                            <p>Treinamento comportamental com métodos positivos</p>
+                        </div>
+                    </div>
+                    
+                    <div class="service-item">
+                        <div class="service-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <div class="service-info">
+                            <h3>Transporte Executivo</h3>
+                            <p>Veículos adaptados com conforto e segurança</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Espaços Luxuosos -->
+    <section id="espacos" class="spaces">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label">Nossas Instalações</span>
+                <h2 class="section-title">Espaços <span class="highlight">Exclusivos</span></h2>
+                <p class="section-description">
+                    Ambiente sofisticado projetado para proporcionar conforto e bem-estar
+                </p>
+            </div>
+            
+            <div class="spaces-gallery">
+                <div class="gallery-main">
+                    <div class="gallery-item active" data-space="recepcao">
+                        <img src="https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Recepção">
+                        <div class="gallery-caption">
+                            <h3>Recepção Premium</h3>
+                            <p>Ambiente climatizado com atendimento personalizado</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-space="estetica">
+                        <img src="https://images.unsplash.com/photo-1576675466969-38eeae4b41f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Sala de Estética">
+                        <div class="gallery-caption">
+                            <h3>Sala de Estética</h3>
+                            <p>Equipamentos profissionais e produtos importados</p>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-space="hotel">
+                        <img src="https://images.unsplash.com/photo-1552053831-71594a27632d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Hotel">
+                        <div class="gallery-caption">
+                            <h3>Área de Hospedagem</h3>
+                            <p>Suítes privativas com monitoramento 24h</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-nav">
+                    <button class="nav-btn active" data-target="recepcao">
+                        <i class="fas fa-home"></i>
+                        <span>Recepção</span>
+                    </button>
+                    <button class="nav-btn" data-target="estetica">
+                        <i class="fas fa-spa"></i>
+                        <span>Estética</span>
+                    </button>
+                    <button class="nav-btn" data-target="hotel">
+                        <i class="fas fa-bed"></i>
+                        <span>Hotel</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Produtos Exclusivos -->
+    <section id="produtos" class="products">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-label">Loja Exclusiva</span>
+                <h2 class="section-title">Produtos <span class="highlight">Selecionados</span></h2>
+                <p class="section-description">
+                    As melhores marcas internacionais e produtos exclusivos para seu pet
+                </p>
+            </div>
+            
+            <div class="products-showcase">
+                <div class="product-featured">
+                    <div class="product-image">
+                        <img src="https://images.unsplash.com/photo-1589924691995-400dc9ecc119?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80" alt="Raças Premium">
+                        <div class="product-label">
+                            <span class="label-text">Exclusivo</span>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h3>Linha Gourmet Importada</h3>
+                        <p>Rações super premium com ingredientes selecionados e receitas desenvolvidas por nutricionistas especializados.</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-check"></i> Sem transgênicos</span>
+                            <span><i class="fas fa-check"></i> Ingredientes naturais</span>
+                            <span><i class="fas fa-check"></i> Desenvolvido na Europa</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-header">
+                            <div class="product-icon">
+                                <i class="fas fa-pills"></i>
+                            </div>
+                            <h3>Farmácia Especializada</h3>
+                        </div>
+                        <p>Medicamentos e suplementos de última geração</p>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-header">
+                            <div class="product-icon">
+                                <i class="fas fa-tshirt"></i>
+                            </div>
+                            <h3>Moda Pet</h3>
+                        </div>
+                        <p>Roupas e acessórios de marcas internacionais</p>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-header">
+                            <div class="product-icon">
+                                <i class="fas fa-gamepad"></i>
+                            </div>
+                            <h3>Brinquedos Inteligentes</h3>
+                        </div>
+                        <p>Estimulam a cognição e divertem por horas</p>
+                    </div>
+                    
+                    <div class="product-card">
+                        <div class="product-header">
+                            <div class="product-icon">
+                                <i class="fas fa-gem"></i>
+                            </div>
+                            <h3>Acessórios de Luxo</h3>
+                        </div>
+                        <p>Coleiras e guias em couro italiano e prata</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato e Agendamento -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="section-header">
+                        <span class="section-label">Agendamento Exclusivo</span>
+                        <h2 class="section-title">Reserve sua <span class="highlight">Experiência</span></h2>
+                        <p class="section-description">
+                            Entre em contato para agendar uma visita ou conhecer nossos serviços
+                        </p>
+                    </div>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Visite-nos</h3>
+                                <p>Av. Premium, 1000 - Jardim das Flores<br>Sua Cidade - Estado</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Telefone</h3>
+                                <p>(11) 99999-8888<br>(11) 3333-4444</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>E-mail</h3>
+                                <p>contato@petlux.com.br<br>agendamento@petlux.com.br</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h3>Horário</h3>
+                                <p>Segunda a Sexta: 8h às 20h<br>Sábado: 9h às 18h<br>Agendamentos 24h via WhatsApp</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-section" id="agendar">
+                    <div class="form-card">
+                        <h3>Solicitar Agendamento</h3>
+                        <form id="reservationForm">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">
+                                        <i class="fas fa-user"></i>
+                                        Nome Completo
+                                    </label>
+                                    <input type="text" id="name" placeholder="Digite seu nome" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="phone">
+                                        <i class="fas fa-mobile-alt"></i>
+                                        WhatsApp
+                                    </label>
+                                    <input type="tel" id="phone" placeholder="(11) 99999-8888" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">
+                                        <i class="fas fa-at"></i>
+                                        E-mail
+                                    </label>
+                                    <input type="email" id="email" placeholder="seu@email.com" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="pet">
+                                        <i class="fas fa-paw"></i>
+                                        Nome do Pet
+                                    </label>
+                                    <input type="text" id="pet" placeholder="Nome do seu pet" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="service">
+                                    <i class="fas fa-concierge-bell"></i>
+                                    Serviço de Interesse
+                                </label>
+                                <select id="service" required>
+                                    <option value="">Selecione um serviço</option>
+                                    <option value="estetica">Estética Premium</option>
+                                    <option value="veterinario">Consulta Veterinária</option>
+                                    <option value="hotel">Hospedagem</option>
+                                    <option value="adestramento">Adestramento</option>
+                                    <option value="outro">Outro Serviço</option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">
+                                    <i class="fas fa-comment"></i>
+                                    Mensagem Adicional
+                                </label>
+                                <textarea id="message" placeholder="Informações adicionais sobre seu pet ou necessidades específicas..." rows="4"></textarea>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-lux btn-block">
+                                <i class="fas fa-paper-plane"></i>
+                                <span>Solicitar Agendamento</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float -->
+    <a href="#" class="whatsapp-float">
+        <div class="whatsapp-icon">
+            <i class="fab fa-whatsapp"></i>
+        </div>
+        <span class="whatsapp-text">Agendar</span>
+    </a>
+
+    <!-- Footer Luxuoso -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <div class="logo-symbol">
+                            <i class="fas fa-crown"></i>
+                        </div>
+                        <div class="logo-text">
+                            <span class="logo-name">PETLUX</span>
+                            <span class="logo-tagline">Experiência Premium</span>
+                        </div>
+                    </a>
+                    <p class="footer-description">
+                        O mais alto padrão em cuidados pet, onde luxo e bem-estar se encontram para proporcionar uma experiência única.
+                    </p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3 class="footer-title">Navegação</h3>
+                    <ul class="footer-menu">
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#experiencia">Experiência</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#espacos">Espaços</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3 class="footer-title">Contato</h3>
+                    <div class="contact-info">
+                        <p><i class="fas fa-map-marker-alt"></i> Av. Premium, 1000 - Jardim das Flores</p>
+                        <p><i class="fas fa-phone"></i> (11) 99999-8888</p>
+                        <p><i class="fas fa-envelope"></i> contato@petlux.com.br</p>
+                    </div>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h3 class="footer-title">Exclusividade</h3>
+                    <p>Receba nossas novidades e ofertas exclusivas</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Seu e-mail" required>
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; <span id="currentYear"></span> PetLux. Todos os direitos reservados.</p>
+                    <p class="luxury-tag">O padrão de luxo em cuidados pet</p>
+                </div>
+                
+                <div class="footer-legal">
+                    <a href="#">Política de Privacidade</a>
+                    <a href="#">Termos de Uso</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
